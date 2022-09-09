@@ -1,0 +1,46 @@
+.img-bander-container {
+  height: 264px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  span {
+    position: absolute;
+    width: 100%;
+    color: white;
+    z-index: 3;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    background-image: -webkit-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0) 90%
+    );
+    background-image: -moz-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0) 90%
+    );
+    background-image: -o-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0) 90%
+    );
+    background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0) 90%
+    );
+  }
+}

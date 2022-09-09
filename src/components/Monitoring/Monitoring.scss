@@ -1,0 +1,27 @@
+.monitoring-container {
+  width: 100%;
+  height: 370px;
+  background-color: white;
+  margin: 0px !important;
+  padding: 12px 0px;
+
+  border: none;
+  border-radius: 8px;
+  box-shadow: 15px 10px 48px -13px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 15px 10px 48px -13px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 15px 10px 48px -13px rgba(0, 0, 0, 0.43);
+
+  p {
+    font-size: 20px;
+    padding: 0px 8px;
+    margin-bottom: 0px;
+  }
+
+  .chart-container {
+    position: relative;
+    padding: 0px 8px;
+
+    height: 10em;
+    width: 90%;
+  }
+}

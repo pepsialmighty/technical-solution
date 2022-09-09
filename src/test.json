@@ -1,0 +1,207 @@
+{
+  "runStart": "2020-10-28T16:03:00+02:00",
+  "runEnd": "2020-10-28T16:10:51+02:00",
+  "duration": null,
+  "uiVersion": "v2.14.7042 64",
+  "systemInfoVersion": "v5.32.862",
+  "results": [
+    {
+      "testName": "TIME_SPY_EXTREME",
+      "testVersion": "v1.2",
+      "scores": {
+        "overallScore": {
+          "type": "TIME_SPY_OVERALL_SCORE_X",
+          "score": 3430.0,
+          "uiValue": "3 430",
+          "unit": ""
+        },
+        "componentScores": [
+          {
+            "type": "TIME_SPY_GRAPHICS_SCORE_X",
+            "baseType": "GRAPHICS_SCORE",
+            "score": 3541.0,
+            "uiValue": "3 541",
+            "unit": "",
+            "subScores": [
+              {
+                "uiValue": "22.46",
+                "baseType": "GT_1",
+                "score": 22.464676,
+                "unit": "fps",
+                "subScores": [],
+                "resultType": null,
+                "type": "TIME_SPY_GT1_X"
+              },
+              {
+                "uiValue": "20.81",
+                "baseType": "GT_2",
+                "score": 20.811609,
+                "unit": "fps",
+                "subScores": [],
+                "resultType": null,
+                "type": "TIME_SPY_GT2_X"
+              }
+            ]
+          },
+          {
+            "type": "TIME_SPY_CPU_SCORE_X",
+            "baseType": "CPU_SCORE",
+            "score": 2915.0,
+            "uiValue": "2 915",
+            "unit": "",
+            "subScores": [
+              {
+                "uiValue": "120.1",
+                "baseType": "CPU_TEST_TIME",
+                "score": 120.061537,
+                "unit": "ms",
+                "subScores": [],
+                "resultType": null,
+                "type": "TIME_SPY_CPU_SECTION0_X"
+              }
+            ]
+          }
+        ]
+      },
+      "device": "",
+      "settings": [
+        {
+          "GPU_NAME": "NVIDIA GeForce RTX 2060",
+          "group": "rendering_quality"
+        },
+        {
+          "DISPLAY_NAME": "\\\\.\\DISPLAY1 Generic PnP Monitor",
+          "group": "rendering_quality"
+        },
+        {
+          "GPU_CONNECTED_TO_DISPLAY": "true",
+          "group": "rendering_quality"
+        }
+      ]
+    }
+  ],
+  "systemInfo": {
+    "os": {
+      "version": "10.0.19041",
+      "osVersion": "WINDOWS_10",
+      "osBitness": "BIT64",
+      "specification": "Windows 10 Enterprise 64-bit (10.0.19041)"
+    },
+    "motherboard": {
+      "name": "ASUSTeK COMPUTER INC. ROG STRIX Z390-H GAMING",
+      "biosVendor": "American Megatrends Inc.",
+      "biosVersion": "2417",
+      "biosDate": "06/03/2019",
+      "mainboardVendor": "ASUSTeK COMPUTER INC.",
+      "mainboardModel": "ROG STRIX Z390-H GAMING",
+      "systemManufacturer": "System manufacturer",
+      "systemProductName": "System Product Name",
+      "systemVersion": "System Version",
+      "systemSerialNumber": "System Serial Number",
+      "systemUuid": "{3739B863-2B72-1C40-0A1A-40B0760DC04E}",
+      "chassisManufacturer": "Default string",
+      "chassisType": "Desktop",
+      "chassisSerialNumber": "{3739B863-2B72-1C40-0A1A-40B0760DC04E}",
+      "northBridgeVendor": "Intel",
+      "northBridgeModel": "Coffee Lake",
+      "northBridgeRevision": "0A",
+      "southBridgeVendor": "Intel",
+      "southBridgeModel": "Z390",
+      "southBridgeRevision": "10",
+      "memory": {
+        "slotCount": 4,
+        "slotsInUse": 2,
+        "slotMap": 0,
+        "moduleMaxSize": 0,
+        "totalSizeMb": 16384,
+        "clockFrequencyMhz": 1600,
+        "casLatency": 16.0,
+        "rasToCasDelay": 18,
+        "rasPercharge": 18,
+        "tras": 38,
+        "trc": -1,
+        "commandRate": 2,
+        "memoryDevices": [
+          {
+            "moduleSpecification": "DDR4-2132",
+            "maxTransferRateMbs": 25600,
+            "marketingFrequencyMhz": "3200",
+            "maxFrequencyMhz": 1066,
+            "manufacturer": "G.Skill",
+            "sizeMb": 8192,
+            "moduleType": "DDR4"
+          },
+          {
+            "sizeMb": 8192
+          }
+        ],
+        "type": "DDR4"
+      },
+      "northBridgeName": "Intel Coffee Lake",
+      "southBridgeName": "Intel Z390"
+    },
+    "gpu": [
+      {
+        "name": "NVIDIA GeForce RTX 2060",
+        "codeName": "TU106",
+        "manufacturingProcess": "12",
+        "busInterface": "PCIe x16 3.0 ",
+
+        "averageTemperature": 71,
+        "gpuType": "DISCRETE",
+        "wddm": 0,
+        "luid": 39302
+      }
+    ],
+    "storage": [
+      {
+        "driveName": "Samsung SSD 860 EVO 500GB",
+        "driveModel": "Samsung SSD 860 EVO 500GB",
+        "capacityMb": 476937.531752448,
+        "driveType": "SSD"
+      }
+    ],
+    "cpu": [
+      {
+        "coreCount": 6,
+        "threadCount": 6,
+        "name": "Intel Core i5-9600K",
+        "processorCodeName": "Coffee Lake",
+        "modelIdentifier": "17039363",
+        "processorPackage": "Socket 1151 LGA",
+        "voltageId": "0.609497",
+        "manufacturingProcessNm": 14
+      }
+    ],
+    "batteries": [],
+    "version": "5.32.862",
+    "guid": "137ED3BE-8205-466E-8A8D-DA2AAE03F853",
+    "computerName": "I9600K-G2060-A4",
+    "hpet": false,
+    "powerScheme": "Balanced",
+    "gsyncMode": "GSYNC_DISABLED",
+    "freesyncMode": "FREESYNC_DISABLED",
+    "vsyncMode": "VSYNC_DISABLED",
+    "arm": false
+  },
+  "benchmarkRunId": "ff162fe4-faf4-4bdc-a6be-83d16e0c2123",
+  "workload": null,
+  "nameNotes": null,
+  "descriptionNotes": null,
+  "benchmarkRunError": null,
+  "additionalOutputs": [
+    {
+      "testName": "TimeSpyCpuX",
+      "workloadOutput": {
+        "type": "CPU_INSTRUCTION_SET",
+        "value": "AVX2"
+      }
+    }
+  ],
+  "id": 0,
+  "name": null,
+  "installId": null,
+  "useNewUi": false,
+  "description": null,
+  "emulatedWorkload": false
+}
